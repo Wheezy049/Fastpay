@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="w-full overflow-x-hidden">
       <Header />
-      <div className="relative">
+      <div className="relative w-full">
         <Hero />
-        <div className="flex justify-center m-auto w-full md:absolute bottom-0 md:-bottom-80">
+        <div className="flex justify-center m-auto w-full md:absolute bottom-0 md:-bottom-72">
           <Hero2 />
         </div>
       </div>
